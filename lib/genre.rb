@@ -11,4 +11,8 @@ class Genre
       song.genre = self
     end
 
+    def songs
+      @songs
+    end
+
 end #end of class
