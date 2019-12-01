@@ -16,6 +16,7 @@ class Patient
   end
 
   def appointments
+    Appointment.all.select {|appt| }
   end
 
 end #end of class
