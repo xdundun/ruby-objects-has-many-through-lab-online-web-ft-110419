@@ -13,8 +13,8 @@ class Artist
   end
 
   def new_song(song)
-    @songs << song
-    song.artist = self
+    # @songs << song
+    # song.artist = self
   end
 
   def songs
@@ -23,7 +23,7 @@ class Artist
   end
 
   def genres
-    @songs.collect { |song| song.genre}
+    # @songs.collect { |song| song.genre}
   end
 
 end #end of class
