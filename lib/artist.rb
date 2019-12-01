@@ -12,7 +12,8 @@ class Artist
   end
 
   def songs
-    Song.all.select {|song| song.artist == @name}
+    Song.all.select {|song|
+      puts song.artist == @name}
   end
 
   # def new_song(name,artist,genre)
