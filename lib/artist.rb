@@ -23,7 +23,7 @@ class Artist
   end
 
   def genres
-    @genre
+    @songs.collect { |song| song.genre}
   end
 
 end #end of class
